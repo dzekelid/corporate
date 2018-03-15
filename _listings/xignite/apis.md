@@ -49,7 +49,7 @@ apis:
   tags: Corporate
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/corporate/master/_listings/xignite/getallcorporateactionsbyexchange-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/corporate/master/_listings/xignite/getcorporateactionhistory-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
