@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Xignite Global Historical
-  description: On-demand global historical quotes.
+  title: Xignite Global Historical Get Corporate Action History
+  description: Get the corporate action history for a stock for a date range.
   version: 1.0.0
 host: www.xignite.com
 basePath: xGlobalHistorical.json/XigniteGlobalHistorical
