@@ -50,15 +50,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/corporate/master/_listings/xignite/getcorporateactionhistory-post.md
-- name: Xignite Global Historical Get All Corporate Actions By Exchange
-  description: Get all corporate actions for a date range in the specified exchange.
+- name: Xignite Global Historical Get Corporate Action History
+  description: Get the corporate action history for a stock for a date range.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/280-xignite.jpg
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
   tags: Corporate
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/corporate/master/_listings/xignite/getallcorporateactionsbyexchange-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/corporate/master/_listings/xignite/getcorporateactionhistory-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
