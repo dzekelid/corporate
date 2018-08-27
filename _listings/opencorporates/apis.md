@@ -7,11 +7,37 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-openc
 x-kinRank: "9"
 x-alexaRank: "53526"
 tags: Corporate
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/corporate/master/_listings/opencorporates/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: OpenCorporates - Corporate Groupings Search
+  x-api-slug: corporate-groupingssearch-get
+  description: nThis returns a collection of corporate_groupings whose name matches
+    the given search term (submitted as :q in the query parameters)
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
+  baseURL: ://api.opencorporates.com/v0.4/
+  tags: SMS, Enterprise, Finance, Business Intelligence, Corporate Data, Business,
+    My API Stack, API LIfeyclessss, Target, Business, Stack Network, Technology, SaaS,
+    General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/corporate/master/_listings/opencorporates/corporate-groupingssearch-get-openapi.md
+- name: OpenCorporates - Account Status
+  x-api-slug: account-status-get
+  description: nThis returns the status of your API Account (this information may
+    also be retrieved at https://OpenCorporates
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
+  baseURL: ://api.opencorporates.com/v0.4/
+  tags: SMS, Enterprise, Finance, Business Intelligence, Corporate Data, Business,
+    My API Stack, API LIfeyclessss, Target, Business, Stack Network, Technology, SaaS,
+    General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/corporate/master/_listings/opencorporates/account-status-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://opencage.api.gallery.streamdata.io
